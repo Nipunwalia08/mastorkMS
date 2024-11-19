@@ -18,7 +18,7 @@ const ServiceStyle2: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
-              <div 
+              <div
                 className="service-info pr-50"
                 data-aos="fade-in"
                 data-aos-duration="1000"
@@ -27,11 +27,16 @@ const ServiceStyle2: React.FC = () => {
                 <div className="info-head">
                   <h2 className="title">What we Offer</h2>
                   <p>
-                  At Mastork, we offer AI-powered solutions to streamline your email management. Our services include automated customer support, intelligent email routing, refund and return management, automated follow-ups, sales order management, and email interaction analytics. With our AI, you can enhance productivity, improve response times, and deliver a seamless customer experience.
+                    Optimize your business with tailored apps, Microsoft
+                    Dynamics 365 solutions, and seamless Azure migration.
+                    Automate routine tasks, unify customer and resource
+                    management, and make data-driven decisions with actionable
+                    insights. Transition to modern, secure tools that boost
+                    efficiency, collaboration, and scalability.
                   </p>
                 </div>
 
-                <div className="row" >
+                <div className="row  justify-content-center">
                   <div className="col-sm-6">
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
@@ -39,7 +44,7 @@ const ServiceStyle2: React.FC = () => {
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      ERP & CRM Implementation and Optimization
+                      Cloud Integration & Security
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
@@ -50,29 +55,33 @@ const ServiceStyle2: React.FC = () => {
                   <div className="col-sm-6">
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
+                      ERP & CRM Implementation and Optimization
+                    </div>
+                    <div className="feature-list">
+                      <i className="fa-solid fa-circle-check"></i>
                       Accelerated Digital Transformation
                     </div>
-                    <div className="feature-list">
-                      <i className="fa-solid fa-circle-check"></i>
-                      Cloud Integration & Security
-                    </div>
-                    <div className="feature-list">
+
+                    {/* <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
                       Customizable Business Solutions with Power Apps
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
                 <div className="flex flex-col items-center justify-center text-center">
-                  <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary">
-                     Book a 1:1 Call
+                  <Link
+                    href="https://calendly.com/dhruv-aii/30mins"
+                    className="btn btn-primary"
+                  >
+                    Book a 1:1 Call
                   </Link>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-5">
-              <div 
+              <div
                 className="service-right-img"
                 data-aos="fade-in"
                 data-aos-duration="1000"
@@ -89,7 +98,6 @@ const ServiceStyle2: React.FC = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

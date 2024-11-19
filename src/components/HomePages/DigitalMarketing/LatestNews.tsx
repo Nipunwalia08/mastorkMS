@@ -8,31 +8,31 @@ import FsLightbox from "fslightbox-react";
 const latestNewsData = [
   {
     image: "/images/blog/blog7.jpg",
-    title: "Customized Bulk Emails",
+    title: "Invoice processing automation",
     date: "Feb 15, 2023",
     category: "Technology",
     shortText:
-      "Send customized bulk emails with corresponding attachments directly from Excel.we demonstrate how to automate email campaigns and notifications directly from Excel, saving you time and improving productivity. Whether you are managing customer lists, sending reminders, or sharing updates, Mastorks email automation solution makes the process seamless and efficient",
+      "By automating invoice processing, businesses can eliminate time-consuming manual tasks, saving over 300 hours every month. This not only enhances productivity but also reduces errors, improves compliance, and frees up resources to focus on strategic initiatives that drive growth.",
     detailsLink: "https://youtu.be/p_MFkvGNxC0?feature=shared",
     aosDelay: "100",
   },
   {
     image: "/images/blog/blog8.jpg",
-    title: "Customer Feedback for leading Hotel Chains",
+    title: "AI Insights",
     date: "Feb 16, 2023",
     category: "Support",
     shortText:
-      "businesses can harness intelligent automation to efficiently manage and resolve customer complaints. From email and web form submissions to social media interactions, our AI-powered automation tools simplify the entire process—categorizing, prioritizing, and resolving complaints with minimal manual intervention.",
+      "Harness the power of AI to analyze customer behavior and trends, enabling data-driven strategies for personalized engagement. These insights empower businesses to address customer needs proactively, improve satisfaction, and significantly boost retention rates over time.",
     detailsLink: "https://youtu.be/9CaGAGBqePQ?si=YfJtRXa3ZnWB_WKU",
     aosDelay: "200",
   },
   {
     image: "/images/blog/blog9.jpg",
-    title: "Email Overload Reduced",
+    title: "Sales Optimization with integrated CRM and Power Apps",
     date: "Feb 17, 2023",
     category: "Optimize",
     shortText:
-      "No contemporary business is immune to abundance of daily emails.With our ground breaking solution, that is fully customizable as per your business needs, you can infuse intelligent automation in your daily email management by imparting human like intelligence while categorizing and responding. ",
+      "Integrating CRM with Power Apps streamlines sales workflows, offering a unified platform for managing leads, tracking pipelines, and enhancing collaboration. This integration simplifies processes, reduces delays, and drives revenue by ensuring a more efficient and customer-focused sales approach.",
     detailsLink: "https://youtu.be/_Es--fDeKso?si=ibOvFBezgP-SVly2",
     aosDelay: "300",
   },
@@ -89,35 +89,41 @@ const LatestNews: React.FC = () => {
 
                       <p>{value.shortText}</p>
 
-                      <button
+                      {/* <button
                         onClick={() => openLightbox(value.detailsLink)}
                         className="btn btn-secondary"
                       >
                         <i className="fa-solid fa-play me-1"></i> How it works
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>
               ))}
           </div>
-          <div className="row justify-content-center"><Link
-    href="https://calendly.com/dhruv-aii/30mins"
-    style={{
-      display: "inline-block",
-      height: "45px",  // Set a fixed height
-      width: "200px",  // Set a fixed width
-      lineHeight: "45px",  // Vertically center the text
-      fontSize: "16px",
-      backgroundColor: "#0700db",
-      color: "#fff",
-      borderRadius: "5px",
-      textDecoration: "none",
-      textAlign: "center",  // Ensure text is centered
-      transition: "background-color 0.3s ease",
-    }}
-  >
-    Book a 1:1 Call <i className="fas fa-chevron-right" style={{ marginLeft: "5px" }}></i>
-  </Link></div>
+          <div className="row justify-content-center">
+            <Link
+              href="https://calendly.com/dhruv-aii/30mins"
+              style={{
+                display: "inline-block",
+                height: "45px", // Set a fixed height
+                width: "200px", // Set a fixed width
+                lineHeight: "45px", // Vertically center the text
+                fontSize: "16px",
+                backgroundColor: "#0700db",
+                color: "#fff",
+                borderRadius: "5px",
+                textDecoration: "none",
+                textAlign: "center", // Ensure text is centered
+                transition: "background-color 0.3s ease",
+              }}
+            >
+              Book a 1:1 Call{" "}
+              <i
+                className="fas fa-chevron-right"
+                style={{ marginLeft: "5px" }}
+              ></i>
+            </Link>
+          </div>
         </div>
       </div>
     </>

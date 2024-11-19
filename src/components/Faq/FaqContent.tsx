@@ -25,20 +25,19 @@ const FaqContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-6 pt-5">
               <div className="faq-accordion">
                 <Accordion allowZeroExpanded preExpanded={["a"]}>
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How long does it take to implement your AI email
-                        solution?
+                        How long does it take to implement Microsoft solutions?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Implementation typically takes 2 to 4 weeks, depending
-                        on your specific needs and existing systems.
+                        Implementation times vary but are tailored to your
+                        business needs for maximum efficiency.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -46,15 +45,13 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What results can we expect from your email management
-                        solutions?
+                        Are your solutions customizable?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Clients have reported up to a 70% reduction in response
-                        times and a 50% increase in conversion rates, enhancing
-                        overall customer satisfaction.
+                        Absolutely! We specialize in creating solutions tailored
+                        to your industry and processes.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -62,19 +59,18 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Is the solution customizable for specific industries?
+                        Do you provide post-implementation support?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Yes, our AI email management solutions can be tailored
-                        to meet the unique requirements of various industries,
-                        ensuring optimal performance.
+                        Yes, our team offers ongoing support and optimization to
+                        ensure your success.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
 
-                  <AccordionItem uuid="d">
+                  {/* <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
                         What kind of support do you offer after implementation?
@@ -87,9 +83,9 @@ const FaqContent: React.FC = () => {
                         service team.
                       </p>
                     </AccordionItemPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
 
-                  <AccordionItem uuid="e">
+                  {/* <AccordionItem uuid="e">
                     <AccordionItemHeading>
                       <AccordionItemButton>
                         Can your system integrate with our existing email
@@ -103,15 +99,18 @@ const FaqContent: React.FC = () => {
                         current workflows.
                       </p>
                     </AccordionItemPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
                 </Accordion>
               </div>
             </div>
           </div>
 
-          <div className="container flex flex-col items-center justify-center text-center" >
-            <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary mt-5">
-            Book a 1:1 Call
+          <div className="container flex flex-col items-center justify-center text-center">
+            <Link
+              href="https://calendly.com/dhruv-aii/30mins"
+              className="btn btn-primary mt-5"
+            >
+              Book a 1:1 Call
             </Link>
           </div>
         </div>

@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,6 +13,56 @@ const feedbacskData = [
     designation: "Director",
     feedbackText:
       "Their Microsoft expertise transformed how we handle workflows, cutting costs by 30%!",
+
+    rating: [
+      {
+        iconName: "fa-solid fa-star",
+      },
+      {
+        iconName: "fa-solid fa-star",
+      },
+      {
+        iconName: "fa-solid fa-star",
+      },
+      {
+        iconName: "fa-solid fa-star",
+      },
+      {
+        iconName: "fa-solid fa-star",
+      },
+    ],
+  },
+  {
+    image: "/images/digital-marketing/t1.jpg",
+    name: "Sarah Taylor",
+    designation: "Director",
+    feedbackText:
+      "Their Microsoft expertise transformed how we handle workflows, cutting costs by 30%!",
+
+    rating: [
+      {
+        iconName: "fa-solid fa-star",
+      },
+      {
+        iconName: "fa-solid fa-star",
+      },
+      {
+        iconName: "fa-solid fa-star",
+      },
+      {
+        iconName: "fa-solid fa-star",
+      },
+      {
+        iconName: "fa-solid fa-star",
+      },
+    ],
+  },
+  {
+    image: "/images/digital-marketing/t2.jpg",
+    name: "Richard Turner",
+    designation: "CEO & Founder",
+    feedbackText:
+      "From ERP integration to automation, they made digital transformation a reality for us.",
 
     rating: [
       {
@@ -70,47 +120,58 @@ const Testimonials: React.FC = () => {
           </div>
 
           <Swiper
-            autoHeight={true}
-            navigation={true}
+            // autoHeight={true}
+            // navigation={true}
             autoplay={{
-              delay: 5000,
-              disableOnInteraction: true,
-              pauseOnMouseEnter: true,
+              delay: 3000,
+              // disableOnInteraction: true,
+              // pauseOnMouseEnter: true,
             }}
-            modules={[Autoplay, Navigation]}
+            modules={[Autoplay]}
+            spaceBetween={30}
+            slidesPerView={1}
+            loop={true}
+            breakpoints={{
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
             className="marketing-testimonials-slides"
           >
             {feedbacskData &&
               feedbacskData.map((value, i) => (
                 <SwiperSlide key={i}>
-                  <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-6">
+                  <div className="relative p-4 border border-gray-300 shadow-md rounded-md bg-white max-w-lg mx-auto ">
+                    <div className="flex gap-4">
                       <div className="marketing-testimonials-image">
                         <Image
                           src={value.image}
-                          alt="image"
-                          width={720}
-                          height={720}
+                          alt="testimonial"
+                          width={80}
+                          height={80}
                         />
                       </div>
                     </div>
 
-                    <div className="col-lg-6 col-md-6">
+                    <div className="flex-1">
                       <div className="marketing-testimonials-content">
-                        <i className="icon fa-solid fa-quote-left"></i>
-                        <p>
+                        <i className="icon fa-solid fa-quote-left text-gray-400"></i>
+                        <p className="mt-2 text-sm text-gray-600">
                           <q>{value.feedbackText}</q>
                         </p>
 
-                        <div className="rating">
+                        <div className="rating mt-2 flex items-center">
                           {value.rating.map((value, i) => (
                             <i className={value.iconName} key={i}></i>
                           ))}
                         </div>
 
-                        <div className="info">
-                          <h3>{value.name}</h3>
-                          <span>{value.designation}</span>
+                        <div className="info mt-2">
+                          <h3 className="text-base font-semibold">
+                            {value.name}
+                          </h3>
+                          <span className="text-sm text-gray-500">
+                            {value.designation}
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -119,9 +180,12 @@ const Testimonials: React.FC = () => {
               ))}
           </Swiper>
 
-          <div className="container flex flex-col items-center justify-center text-center" >
-            <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary mt-5">
-            Book a 1:1 Call
+          <div className="container flex flex-col items-center justify-center text-center">
+            <Link
+              href="https://calendly.com/dhruv-aii/30mins"
+              className="btn btn-primary mt-5"
+            >
+              Book a 1:1 Call
             </Link>
           </div>
         </div>

@@ -116,7 +116,7 @@ const Portfolio: React.FC = () => {
         <section className="portfolio-area">
           <div className="container">
             <div className="section-title">
-              <h2>What are clients say</h2>
+              <h2>What our clients say</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                 architecto magni est recusandae, iure officia voluptate

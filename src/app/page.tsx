@@ -80,8 +80,6 @@
 
 //       <CtaAreaTwo />
 
-
-
 //       <Footer />
 //     </>
 //   );
@@ -132,11 +130,9 @@ export default function Page() {
 
       <FunFacts /> */}
 
-      
-
       <Testimonials />
 
-      <Portfolio />
+      {/* <Portfolio /> */}
 
       {/* <PricingPlans /> */}
 
@@ -144,18 +140,15 @@ export default function Page() {
 
       {/* <TeamMember /> */}
 
-      
-
       <Partner />
 
       {/* <div className="pb-100">
         <Newsletter />
       </div> */}
 
-     <FaqContent />
+      <FaqContent />
 
       <Footer />
     </>
   );
 }
-

@@ -84,9 +84,11 @@ const MainBanner: React.FC = () => {
                   Microsoft Stack Specialist
                 </h1>
                 <p className="mb-6 text-shadow-md ">
-                  Unlock the potential of Microsoft technologies to drive
-                  digital transformation, automate workflows, and elevate your
-                  business with customized solutions and expert guidance.
+                  Unlock the potential of Microsoft technologies with Dynamics
+                  365, Power Apps, Power Automate, Microsoft CRM, and many more
+                  to drive digital transformation, automate workflows, and
+                  elevate your business with customized solutions and expert
+                  guidance.
                 </p>
                 <div className="container flex flex-col items-center justify-center text-center mb-5">
                   <Link

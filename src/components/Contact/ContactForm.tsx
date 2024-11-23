@@ -8,7 +8,7 @@ import { MuiTelInput } from "mui-tel-input";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../firebase/config.js";
 
-import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
+import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
 
 /**
  * Form data interface
@@ -108,27 +108,27 @@ const ContactForm: React.FC = () => {
     try {
       const docRef = await addDoc(collection(db, "contactFormData"), formData);
       sendEmail(formData);
-      handleSnackbarClick()
+      handleSnackbarClick();
       setFormData({
         name: "",
         email: "",
         mobile: "",
         message: "",
       });
-      setValue("") //Set country value to null after form submission  
+      setValue(""); //Set country value to null after form submission
     } catch (error) {
       console.log(error);
     }
   };
 
   /**
-   * 
-   * @param data 
-   * @returns 
+   *
+   * @param data
+   * @returns
    */
   const sendEmail = async (data: FormState) => {
     const templateParams = {
-      to_name: 'Dhruv',
+      to_name: "Dhruv",
       from_name: data.name,
       phone: data.mobile,
       email: data.email,
@@ -140,23 +140,22 @@ const ContactForm: React.FC = () => {
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string,
         templateParams,
         {
-          publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-        },
+          publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+        }
       );
-    } 
-    catch (err) {
+    } catch (err) {
       if (err instanceof EmailJSResponseStatus) {
-        console.log('EMAILJS FAILED...', err);
+        console.log("EMAILJS FAILED...", err);
         return;
       }
-      console.log("Error ", err)
+      console.log("Error ", err);
     }
-  }
+  };
 
   return (
     <div className="container mt-6 md:mt-20">
       <div className="contact-title  font-bold">
-        <h2 className="gap-4 py-10 ">Request a Demo</h2>
+        <h2 className="gap-4 py-10 ">Book A Meeting</h2>
       </div>
       <form onSubmit={handleFormSubmit}>
         <Box

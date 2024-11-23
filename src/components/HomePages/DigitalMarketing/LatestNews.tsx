@@ -8,11 +8,11 @@ import FsLightbox from "fslightbox-react";
 const latestNewsData = [
   {
     image: "/images/blog/blog7.jpg",
-    title: "Invoice processing automation",
+    title: "Invoice Processing Automation with Microsoft Power Automate",
     date: "Feb 15, 2023",
     category: "Technology",
     shortText:
-      "By automating invoice processing, businesses can eliminate time-consuming manual tasks, saving over 300 hours every month. This not only enhances productivity but also reduces errors, improves compliance, and frees up resources to focus on strategic initiatives that drive growth.",
+      "By automating invoice processing using Microsoft Power Automate and Dynamics 365 solutions, businesses can eliminate time-consuming manual tasks, saving over 300 hours every month. This not only enhances productivity but also reduces errors, improves compliance, and frees up resources to focus on strategic initiatives that drive growth.",
     detailsLink: "https://youtu.be/p_MFkvGNxC0?feature=shared",
     aosDelay: "100",
   },

@@ -64,8 +64,8 @@ const FaqContent: React.FC = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Yes, our team offers ongoing support and optimization to
-                        ensure your success.
+                        Yes, our team provides ongoing support and optimization
+                        to ensure your success.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

@@ -14,26 +14,22 @@ const Footer: React.FC = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="100"
               >
                 <div className="logo">
                   <Link href="/">
-                    <Image 
-                      src={logo}
-                      alt="Logo" 
-                      width={150}
-                      height={40}
-                    />
+                    <Image src={logo} alt="Logo" width={150} height={40} />
                   </Link>
                 </div>
 
                 <p>
-                Mastork Technologies is a progressive technology company committed to using
- artificial intelligence (AI) and digital innovation to transform businesses. 
+                  Mastork Technologies is a progressive technology company
+                  committed to using artificial intelligence (AI) and digital
+                  innovation to transform businesses.
                 </p>
 
                 <ul className="social-links">
@@ -48,12 +44,18 @@ const Footer: React.FC = () => {
                     </a>
                   </li> */}
                   <li>
-                    <a href="https://www.linkedin.com/company/mastork/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/company/mastork/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/mastork.ai/" target="_blank">
+                    <a
+                      href="https://www.instagram.com/mastork.ai/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                   </li>
@@ -62,24 +64,20 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget ml-4 pl-5"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="200"
               >
                 <h3>Explore</h3>
 
                 <ul className="list">
                   <li>
-                    <Link href="https://www.mastork.com/">
-                      Home
-                    </Link>
+                    <Link href="https://www.mastork.com/">Home</Link>
                   </li>
                   <li>
-                    <Link href="https://www.mastork.com/about/">
-                      About
-                    </Link>
+                    <Link href="https://www.mastork.com/about/">About</Link>
                   </li>
                   <li>
                     <Link href="https://www.mastork.com/services/">
@@ -106,10 +104,10 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget ml-4"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 <h3>Quick Links</h3>
@@ -145,21 +143,22 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="400"
               >
                 <h3>Get in Touch</h3>
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i>  Kohat Enclave, Delhi, India
+                    <i className="fa-solid fa-location-dot"></i> Kohat Enclave,
+                    Delhi, India
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+91 9871114841"> +91 9871114841</a> 
+                    <a href="tel:+91 9871114841"> +91 9871114841</a>
                     <br />
                     {/* <a href="tel:+324-9442-515">+324-9442-999</a> */}
                   </li>
@@ -177,7 +176,7 @@ const Footer: React.FC = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright &copy; {currentYear} Mastork. All Rights Reserved By{" "}
+              Copyright &copy; {currentYear} Mastork. All Rights Reserved by{" "}
               <a href="https://mastork.com" target="_blank">
                 Mastork Technologies
               </a>

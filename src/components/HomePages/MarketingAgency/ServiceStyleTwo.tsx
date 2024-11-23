@@ -27,12 +27,12 @@ const ServiceStyle2: React.FC = () => {
                 <div className="info-head">
                   <h2 className="title">What we Offer</h2>
                   <p>
-                    Optimize your business with tailored apps, Microsoft
-                    Dynamics 365 solutions, and seamless Azure migration.
-                    Automate routine tasks, unify customer and resource
-                    management, and make data-driven decisions with actionable
-                    insights. Transition to modern, secure tools that boost
-                    efficiency, collaboration, and scalability.
+                    We offer tailored solutions including custom apps, Microsoft
+                    Dynamics 365, Power Apps, and Azure migration to help
+                    businesses streamline operations. Our expertise includes
+                    workflow automation, customer management, and data-driven
+                    insights, enabling efficiency, collaboration, and
+                    scalability with modern tools like Microsoft Power Automate.
                   </p>
                 </div>
 

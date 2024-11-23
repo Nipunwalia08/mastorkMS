@@ -9,7 +9,7 @@ import Link from "next/link";
 const feedbacskData = [
   {
     image: "/images/digital-marketing/t1.jpg",
-    name: "Sarah Taylor",
+    name: "Pradeep",
     designation: "Director",
     feedbackText:
       "Their Microsoft expertise transformed how we handle workflows, cutting costs by 30%!",
@@ -34,7 +34,7 @@ const feedbacskData = [
   },
   {
     image: "/images/digital-marketing/t1.jpg",
-    name: "Sarah Taylor",
+    name: "Vivek",
     designation: "Director",
     feedbackText:
       "Their Microsoft expertise transformed how we handle workflows, cutting costs by 30%!",
@@ -58,11 +58,11 @@ const feedbacskData = [
     ],
   },
   {
-    image: "/images/digital-marketing/t2.jpg",
-    name: "Richard Turner",
+    image: "/images/digital-marketing/manuj.webp",
+    name: "Manuj Aggarwal",
     designation: "CEO & Founder",
     feedbackText:
-      "From ERP integration to automation, they made digital transformation a reality for us.",
+      "With expert Microsoft ERP integration and automation using Power BI and Power Apps, they made our digital transformation seamless, empowering us to optimize workflows, enhance collaboration, and drive business growth.",
 
     rating: [
       {
@@ -83,11 +83,11 @@ const feedbacskData = [
     ],
   },
   {
-    image: "/images/digital-marketing/t2.jpg",
-    name: "Richard Turner",
-    designation: "CEO & Founder",
+    image: "/images/digital-marketing/lionrose.jpg",
+    name: "Lion Rose",
+    designation: "Founder",
     feedbackText:
-      "From ERP integration to automation, they made digital transformation a reality for us.",
+      "With their implementation of Microsoft Power Platforms, Dynamics 365 Finance & Operations, and tailored automation solutions, they empowered us to optimize our financial processes, drive operational efficiency, and achieve faster decision-making across the organization.",
 
     rating: [
       {

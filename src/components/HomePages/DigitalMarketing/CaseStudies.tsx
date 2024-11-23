@@ -8,7 +8,7 @@ const caseStudiesData = [
   {
     image: "/images/case-studies/studie1.jpg",
     title:
-      "How a global retailer achieved a 40% productivity boost using Microsoft Power Automate.",
+      "How a Retail Chain Enhanced Customer Experience by 40% with Microsoft Dynamics 365 CRM and Power Apps",
     category: "Web, Sales",
     detailsLink: "/portfolio/ai-email-reducing-time/",
     shapeImage: "/images/case-studies/studie-shape1.png",
@@ -17,7 +17,7 @@ const caseStudiesData = [
   {
     image: "/images/case-studies/studie2.jpg",
     title:
-      "Simplifying project management for a construction firm with custom Power BI dashboards.",
+      "Is it true that a Healthcare Provider Enhanced Patient Scheduling and Reduced Wait Times by 25% Using Power Automate and Dynamics 365",
     category: "Sales, SEO, Web",
     detailsLink: "/portfolio/automating-sales-order-using-ai-email/",
     shapeImage: "/images/case-studies/studie-shape2.png",

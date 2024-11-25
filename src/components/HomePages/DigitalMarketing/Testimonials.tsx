@@ -33,7 +33,7 @@ const feedbacskData = [
     ],
   },
   {
-    image: "/images/digital-marketing/t1.jpg",
+    image: "/images/digital-marketing/t2.jpg",
     name: "Vivek",
     designation: "Director",
     feedbackText:
@@ -58,7 +58,7 @@ const feedbacskData = [
     ],
   },
   {
-    image: "/images/digital-marketing/manuj.webp",
+    image: "/images/digital-marketing/manuj.jpg",
     name: "Manuj Aggarwal",
     designation: "CEO & Founder",
     feedbackText:
